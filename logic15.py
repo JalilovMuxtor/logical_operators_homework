@@ -11,4 +11,4 @@ def main(a):
     y=a%10
     z=a%10
     return (x+y+z)%2==1
-print(main(203))
+print(main(113))
