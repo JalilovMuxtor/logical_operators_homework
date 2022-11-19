@@ -5,5 +5,9 @@ def main(a):
         a(int): parameter a
     Returns:
         bool: answer
-    """
-    return
+    """ 
+    a
+    z1=a%10
+    z2=a//10
+    return z1==z2
+print(main(33))
